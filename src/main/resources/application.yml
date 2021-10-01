@@ -1,0 +1,12 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: application
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/SpringMicroServiceNhatLong/configuration-yml
+          default-label: master
+        bootstrap: false
